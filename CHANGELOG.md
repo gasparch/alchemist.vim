@@ -2,6 +2,22 @@
 
 # Lithium(3.X.X)
 
+## [3.1.0] - 2018-04-22
+### Added
+- Support python3
+- Support for utf8 docs
+
+### Changed
+- Import ElixirSense client directly into deoplete plugin
+- Enhancement on greedy regex
+
+### Fixed
+- Fix throwing error when looking up erlang docs in neovim #121
+- Fix a problem that find a function's location
+
+### Changed
+- Move erlang terms test to python unittest
+
 ## [3.0.1] - 2017-10-31
 
 ### Changed
